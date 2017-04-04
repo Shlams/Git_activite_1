@@ -1,0 +1,29 @@
+﻿#conteneur
+{
+	display: flex;
+	justify-content: space-between;
+	height: 100%;
+
+}
+
+.element:nth-child(1)
+{
+    background-color: #777799;
+  	color: rgb(255,255,204);
+}
+
+.element:nth-child(2) /* On prend le deuxième bloc élément */
+{
+	background-color: teal;
+	flex: 1;
+}
+
+.element:nth-child(3) /* On prend le deuxième bloc élément */
+{
+	background-color: teal;
+}
+
+body
+{
+	background-color: teal;
+}
